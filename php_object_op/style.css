@@ -1,0 +1,139 @@
+  body{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  img{
+    max-height: 90%;
+  }
+ /* それぞれの高さ */
+  .container{
+    width: 60%;
+    height: 89.5%;
+    background: rgba(247, 241, 255, 0.5);
+    margin: auto;
+    padding: 3%;
+  }
+  .food-container, .nezuko-container{
+    height: 35%;
+    display: flex;
+  }
+  .history-choice-container{
+    height: 25%;
+    display: flex;
+    padding: 10px;
+  }
+  .history-container{
+    height: 100%;
+    width: 50%;
+    border: black solid;
+    margin: 0;
+  }
+  .choice-container{
+    height: 100%;
+    width: 50%;
+    border: black solid;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /* パラメータ */
+  .parameter{
+    width: 50%;
+    border: black solid;
+    padding: 20px;
+    align-self: flex-start;
+    margin-left: 50px;
+  }
+  meter{
+    width: 300px;
+    height: 30px;
+  }
+  .number{
+    float: right;
+  }
+  /* img */
+  .food-img img, .nezuko-container img{
+    border-radius: 50%;
+  }
+  .food-img{
+    margin-left: 50px;
+  }
+  /* 選択し */
+  .choice{
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .input{
+    border: none;
+    padding: 15px 30px;
+    float: left;
+    height: 50%;
+    width: 50%;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 20px;
+    background: rgba(231, 214, 192, 0.5);
+  }
+  .input:hover{
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  /* 履歴 */
+  .history{
+    box-sizing: border-box;
+    padding: 20px;
+    height: 180px;
+    margin-top: 0;
+  }
+  /* 初期画面 */
+  .title{
+    font-family: 'MS UI Gothic',sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+  .gamestart{
+    background: rgba(247, 191, 116, 0.5);
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-left:220px;
+  }
+  .gamestart:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .pre-eat-count{
+    clear: both;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+  }
+  .default-screen{
+    background: rgba(231, 214, 192, 0.5);
+    width: 60%;
+    height: 75%;
+    margin: auto;
+    padding: 50px;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+  .kamaboko-wrap{
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .kamaboko{
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    margin-left: 55px;
+    flex-direction: row;
+  }
